@@ -3,8 +3,12 @@ name = "sudoku-solver"
 version = "0.1.0"
 edition = "2021"
 
+#[[bench]]
+#name = "rule-efficiency"
+#harness = false
+
 [[bench]]
-name = "rule-efficiency"
+name = "scalar-vs-simd"
 harness = false
 
 [dependencies]
